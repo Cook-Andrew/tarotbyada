@@ -1,64 +1,26 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <title>Tarot by Ada</title>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather&display=swap');
-      * {
-        font-family: 'Merriweather', serif;
-        padding: 0;
-        margin: 0;
-      }
-      h1 {
-        font-family: 'Lobster', cursive;
-      }
-      body {
-        background-color: lightgray;
-        background-image: url("raven.svg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-      }
-      main, header {
-        width: 60vw;
-        margin: auto;
-        padding: 0%;
-      }
-      header {
-        background-color: plum;
-        padding: 2rem;
-        border-top-left-radius: 25px;
-        border-top-right-radius: 25px;
-        opacity: 75%;
-        margin-top: 5VH;
-      }
-      main {
-        background-color: white;
-        height: 100%;
-        padding: 2rem;
-        border-bottom-left-radius: 25px;
-        border-bottom-right-radius: 25px;
-        opacity: 75%;
-      }
-      .raven {
-        width: 50%;
-      }
-      @media only screen and (min-width: 600px) {
-        header {
-          margin-top: 20VH;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-        <h1>Tarot by Ada</h1>
-    </header>
-    <main><p>My website is under construction.</br> In the mean time contact me here:</p></br>
-      <a href="https://www.facebook.com/groups/191287802134091" target="_blank">Facebook</a>
-      <a href="https://www.instagram.com/tarotbyada/" target="_blank">Instagram</a><br/></br>
-      </main>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Tarot by Ada
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <div class="img_container">
+                <img class="raven" src="raven.svg" alt="raven"/>
+            </div>
+            <div class="titlecard">
+                <h1>Tarot by Ada</h1><hr/>
+                <span>Contact:</span>
+                <a href="https://www.facebook.com/groups/191287802134091" target="_blank">Facebook</a><span> | </span>
+                <a href="https://www.instagram.com/tarotbyada/" target="_blank">Instagram</a>
+            </div>
+            <span class="copy">&copy; Ada Winn | Website by Andrew Cook</span>
+        </main>
+        
+    </body>
 </html>

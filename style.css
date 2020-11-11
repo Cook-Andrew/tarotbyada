@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&family=Xanh+Mono&display=swap');
+:root {
+    --lilac: #c8a2c8;
+    --goldenrod: #daa520;
+    --maroon: #32021f;
+    --brown: #917c6f;
+    color: var(--lilac);
+}
+html {
+    background-color: var(--maroon);
+    font-family: 'Xanh Mono', monospace;
+}
+a {
+    color: var(--lilac);
+}
+hr {
+    color: var(--goldenrod)
+}
+a:hover {
+    color: var(--goldenrod)
+}
+body {
+    border: 1px solid var(--goldenrod);
+    border-radius: 15px;
+    height: 90vh;
+    margin-top: 2vh;
+    background-image: url("card_back_pattern.svg");
+}
+main {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.img_container {
+    width: 70vh;
+    overflow: hidden;
+}
+.raven {
+    height: 100vh;
+    float: right;
+}
+.titlecard {
+    align-self: center;
+    border: 1px solid var(--goldenrod);
+    border-radius: 15px;
+    padding: 1em;
+    margin-right: 1em;
+    background-color: var(--maroon);
+}
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
+}
+.copy {
+    justify-self: flex-end;
+    width: 100%;
+    text-align: right;
+}
+@media only screen and (min-width: 80rem) {
+    body {
+        width: 90vw;
+        margin: auto;
+    }
+}
+@media only screen and (min-width: 100rem) {
+    body {
+        width: 70vw;
+        margin: auto;
+    }
+}
