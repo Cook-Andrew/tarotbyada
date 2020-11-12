@@ -30,6 +30,7 @@ main {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
+    text-align: left;
 }
 .img_container {
     width: 70vh;
@@ -51,20 +52,40 @@ h1 {
     font-family: 'Sacramento', cursive;
     font-size: 4rem;
 }
+h2 {
+    font-family: 'Sacramento', cursive;
+    font-size: 2rem;
+}
 .copy {
     justify-self: flex-end;
     width: 100%;
     text-align: right;
 }
+section {
+    width: 100%;
+    margin: 2rem;
+    padding: 0px 2rem;
+    border-left: 1px solid var(--goldenrod);
+    border-right: 1px solid var(--goldenrod);
+}
 @media only screen and (min-width: 80rem) {
     body {
         width: 90vw;
         margin: auto;
+        margin-top: 2vh;
     }
 }
 @media only screen and (min-width: 100rem) {
     body {
         width: 70vw;
         margin: auto;
+        margin-top: 2vh;
+    }
+}
+@media only screen and (max-width: 70rem) {
+    .titlecard {
+        position: absolute;
+        top: 10%;
+        right: 2%;
     }
 }
